@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/hingeipv6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hinge config/ipv6 key checks for twelve-factor services.",
+  "bin": {
+    "hingeipv6": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/hingeipv6.git"
+  },
+  "homepage": "https://theworker02.github.io/hingeipv6/",
+  "keywords": [
+    "hinge",
+    "ipv6",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
